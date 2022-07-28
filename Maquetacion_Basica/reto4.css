@@ -4,6 +4,9 @@
 }
 
 .Menu a {
-    background-color: blue;
-    color: white;
+    background-color: lightblue;
+    color: black;
+    float: left;
+    width: 33%;
+    text-align: center;
 }

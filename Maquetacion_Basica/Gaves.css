@@ -1,0 +1,19 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    width: 100%;
+    height: auto;
+    margin: 5%;
+}
+
+img {
+    display: flex;
+    border-color: black;
+    border-style: solid;
+    transform: scale(1);
+    flex-flow: row wrap;
+    width: 20%;
+    display: inline-block;
+}
