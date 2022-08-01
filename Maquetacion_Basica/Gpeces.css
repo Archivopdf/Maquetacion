@@ -1,21 +1,25 @@
-/* * {
-    box-sizing: border-box;
-} */
+* {
+    background-image: url(http://t1.gstatic.com/images?q=tbn:ANd9GcS78ufsjXC09GlQI2bdt7pLAe0rn64V8F_5eZCv-Atin3tDLJv6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
 
 body {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
     width: 100%;
     height: auto;
     margin: 5%;
 }
 
 img {
-    display: flex;
-    border-color: black;
+
+    border-color: white;
     border-style: solid;
     transform: scale(1);
-    flex-flow: row wrap;
-    max-width: 20%;
-    max-height: 20%;
-    display: inline-block;
-
+    width: 20%;
 }

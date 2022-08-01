@@ -1,19 +1,24 @@
-/* * {
-    box-sizing: border-box;
-} */
+* {
+    background-image: url(https://ecotourism-world.com/wp-content/uploads/2021/02/mandy-choi-_qZ0us4az20-unsplash-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
 
 body {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
     width: 100%;
     height: auto;
     margin: 5%;
 }
 
 img {
-    display: flex;
-    border-color: black;
+
+    border-color: white;
     border-style: solid;
     transform: scale(1);
-    flex-flow: row wrap;
     width: 20%;
-    display: inline-block;
 }
