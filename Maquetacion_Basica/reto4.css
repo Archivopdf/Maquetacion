@@ -1,12 +1,30 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    margin: 0px;
+
 }
 
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://www.elagoradiario.com/wp-content/uploads/2021/10/Planeta-tierra-1140x600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
 .Menu a {
-    background-color: lightblue;
+
+    background-color: rgb(136, 225, 157);
+    border: solid black 1px;
     color: black;
-    float: left;
-    width: 33%;
     text-align: center;
+    text-decoration: none;
+
 }
