@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.encabezado {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 5%;
+    align-items: center;
+    padding-left: 10px;
+}
+
+body {
+    height: 100vh;
+    color: white;
+    background-image: url(https://www.codenotch.com/wp-content/uploads/2021/09/Web-portada-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+
+}
+
+.Menu a {
+
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+
+
+}
+
+article {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+
+.Artimg {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+    border: grey solid;
+
+}
+
+.info {
+    display: flex;
+    align-content: flex-end;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    background-color: black;
+}
+
+/* 
+footer {
+    background-color: black;
+    height: 4%;
+    padding-right: 10px;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: flex-end;
+} */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    width: 100%;
+    align-items: center;
+    padding-left: 10px;
+    justify-content: space-between;
+
+}
+
+.RRSS {
+
+    height: 25px;
+    width: 25px;
+}

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+img {
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: fixed;
+    background-image: linear-gradient(pink, orange);
+    background-image: linear-gradient(to right to bottom,
+            color1 20%,
+            color2 70%);
+    display: flex;
+    flex-flow: column wrap;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border: solid black
+}
+
+div {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    border: red solid;
+    flex-flow: column;
+    justify-content: space-around;
+    width: 30%;
+    height: 30%;
+}
+
+
+article {
+    text-align: center;
+    display: flex;
+    background-color: white;
+    flex-flow: column;
+    width: 25%;
+    height: 25%;
+    justify-content: space-around;
+    border: yellow solid
+}
+
+section {
+    border: solid lightgray
+}
