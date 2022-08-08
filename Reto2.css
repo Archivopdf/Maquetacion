@@ -7,8 +7,8 @@
 .grid {
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(1, 2fr 1fr 2fr);
-    grid-template-rows: repeat(1, 1fr 1fr 1fr);
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+    grid-template-rows: 1fr 0.5fr 1fr;
 }
 
 .a {
