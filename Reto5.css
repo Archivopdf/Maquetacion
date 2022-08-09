@@ -1,0 +1,33 @@
+.tablero {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-rows: 4fr 4fr 4fr;
+
+}
+
+.casilla {
+    border: solid black 2px;
+    transition: background-color ease-in 0.4s;
+}
+
+.casilla:hover {
+    background-color: aqua;
+}
+
+.tablero {
+    background-color: lightskyblue;
+    border: solid 2px black
+}
+
+.Contadores {
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
