@@ -1,58 +1,77 @@
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Formulario de contacto</title>
-    <link rel="stylesheet" href="Contacto.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Contacto.css" rel="stylesheet">
 </head>
-
 
 <body>
 
-    <div class="encabezado">
-        Viajes Wings
+    <div id="header">
+        <ul class="nav">
+            <li><a href="Portfolio.html">Inicio</a></li>
+
+            <li><a href="Sobremi.html">Sobre mi</a>
+
+            <li><a href="Tecnologias.html">Tecnologias</a>
+
+            <li><a href="Proyectos.html">Proyectos</a></li>
+
+            <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
     </div>
 
-    <div class="contact">
-
-        <div class="formulario">
-            <h1>Formulario de contacto </h1>
-            <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+    <div class="formulario">
+        <h1>Formulario de contacto </h1>
+        <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
 
 
-            <form method="post">
+        <form method="post">
 
 
-                <p>
-                    <label for="nombre" class="colocar_nombre">Nombre
-
-                    </label>
-                    <input type="text" name="introducir_nombre" id="nombre" placeholder="Escribe tu nombre">
-                </p>
-
-                <p>
-                    <label for="email" class="colocar_email">Email
-
-                    </label>
-                    <input type="email" name="introducir_email" id="email" placeholder="Escribe tu Email">
-                </p>
-
-                <label for="Mensaje" class="colocar_mensaje">Mensaje
-
+            <p>
+                <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio"></span>
                 </label>
-                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
-                    placeholder="Deja aquí tu comentario..."></textarea>
-                </p>
+                <input type="text" name="introducir_nombre" id="nombre" placeholder="Escribe tu nombre">
+            </p>
 
-                <button name="enviar_formulario" id="enviar">
-                    <p>Enviar</p>
-                </button>
+            <p>
+                <label for="email" class="colocar_email">Email
+                    <span class="obligatorio"></span>
+                </label>
+                <input type="email" name="introducir_email" id="email" placeholder="Escribe tu Email">
+            </p>
 
+            </p>
 
-            </form>
-        </div>
-    </div>
+            <label for="Mensaje" class="colocar_mensaje">Mensaje
 
+            </label>
+            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
+                placeholder="Deja aquí tu comentario..."></textarea>
+            </p>
+
+            <button name="enviar_formulario" id="enviar">
+                <p>Enviar</p>
+            </button>
+            <footer>
+                <div>
+                    <a href=""><img class="RRSS"
+                            src="https://i.pinimg.com/564x/21/d6/7f/21d67f1d6b3be5bb2e39395311c77fc6.jpg"></a>
+                    <a href=""><img class="RRSS"
+                            src="https://i.pinimg.com/564x/64/1c/ec/641cecefc3e502d1f3b89ac352b5694b.jpg"></a>
+                    <a href="">
+                        <img class="RRSS"
+                            src="https://image.similarpng.com/very-thumbnail/2021/01/Black-linkedin-logo-design-on-transparent-background-PNG.png"></a>
+                    <a href=""><img class="RRSS"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOSf79zfLlxH3124XOo-kGU8ZYWqkVyM0xSXAW5k4nZcMZ_nXGt9Nq1-R-ytvoOok8deU&usqp=CAU"></a>
+                </div>
+            </footer>
 </body>
 
 </html>

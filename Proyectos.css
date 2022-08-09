@@ -38,6 +38,15 @@ ul {
     background-color: #434343;
 }
 
+.proy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 22px;
+}
+
 footer {
     display: flex;
     flex-direction: row;
