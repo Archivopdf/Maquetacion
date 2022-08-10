@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: ghostwhite;
+}
+
+.boxmain {
+    display: flex;
+    flex-direction: column;
+    height: 581px;
+    width: 350px;
+    justify-content: space-evenly;
+}
+
+.main {
+    border: solid 1px grey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 12px;
+    align-items: center;
+    height: 348px;
+    width: 374px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+
+}
+
+.Recuadro {
+    height: 38px;
+    width: 266px;
+}
+
+.user {
+    width: 268px;
+    height: 38px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.ray {
+    width: 111.094px;
+    height: 0.25px;
+    border: solid lightgrey 0.5px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px grey solid;
+    height: 41px;
+    width: 374px;
+}
+
+.download {
+    width: 120px;
+    height: 40px;
+}
+
+.log {
+    width: 268px;
+    height: 30px;
+    border-color: black;
+    border: solid 1px;
+    background-color: lightblue;
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 99.5%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    color: grey;
+}
+
+button {
+    border: 0px;
+    background-color: white;
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(66, 131, 187);
+}
+
+.face {
+    height: 15px;
+    width: 15px;
+}
+
+.descargas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.inicioses {
+    color: darkblue;
+}
+
+.title {
+    height: 18px;
+    width: 310px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.facebook {
+    margin: 20px;
+    text-align: center;
+    height: 20px;
+    width: 268px;
+}
+
+.contr {
+    padding-left: 40px;
+    text-align: center;
+    height: 20px;
+    width: 268px;
+}
+
+.user {
+    width: 248px;
+    height: 38px;
+}
